@@ -1,5 +1,27 @@
 # one-click installer messages, see assistedMessages.yml for assisted installer messages
 # en must be first (https://github.com/electron-userland/electron-builder/issues/2517)
+winXPRequired:
+  en: Windows XP and above is required
+  de: Windows XP oder höher wird vorausgesetzt
+  it: È necessario disporre del sistema operativo Windows 7 e successivi
+  fr: Windows XP (ou une version ultérieure) est requis
+  ja: Windows XP 以降が必要です
+  ko: Windows XP 이상이 필요합니다
+  ru: Требуется Windows XP и выше
+  sk: Iba Windows XP a vyššie je podporovaný
+  cs: Jsou podporovány pouze Windows XP a vyšší
+  hu: Windows XP vagy újabb szükséges
+  pl: Windows XP lub nowszy jest wymagany
+  pt_BR: Requer Windows XP ou superior
+  zh_CN: 需要 Windows XP 或以上系统
+  zh_TW: 需要 Windows XP 或以上系統
+  tr_TR: Windows XP ve üstü gereklidir
+  sv_SE: Windows XP eller högre krävs
+  no: Windows XP og over er nødvendig
+  nl_NL: Windows XP en hoger is vereist
+  fi: Windows XP tai uudempi vaaditaan
+  es: Se necesita Windows XP o una versión superior.
+  da: Windows XP og højere er nødvendig
 win7Required:
   en: Windows 7 and above is required
   de: Windows 7 oder höher wird vorausgesetzt

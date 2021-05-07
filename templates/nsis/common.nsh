@@ -17,9 +17,9 @@ Name "${PRODUCT_NAME}"
   # https://github.com/electron-userland/electron-builder/issues/2420
   ${If} ${IsWin2000}
   ${OrIf} ${IsWinME}
-  ${OrIf} ${IsWinXP}
-  ${OrIf} ${IsWinVista}
-    MessageBox MB_OK "$(win7Required)"
+  ; ${OrIf} ${IsWinXP}
+  ; ${OrIf} ${IsWinVista}
+    MessageBox MB_OK "$(winXPRequired)"
     Quit
   ${EndIf}
 
